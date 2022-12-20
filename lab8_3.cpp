@@ -2,10 +2,24 @@
 using namespace std;
 
 char before(char x){
-	//Write your function definition here
+	if (x > 'Z' || x < 'A')
+	{
+		return '0';
+	}
+	else if (x == 'A')
+	{
+		return 'Z';
+	}
+	else
+	{
+		return x-1;
+	}
+
 }
 
 int main(){
+	// char a = 'A';
+	// cout << (int) a;
 	//Test Case
 	cout << before('A') << "\n";
 	cout << before('B') << "\n";
