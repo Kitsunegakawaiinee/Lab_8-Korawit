@@ -10,6 +10,6 @@ int main()
     // cout << double(b)/double(c) << endl;
     output = (a*1.0) - double(b)/double(c);
 
-    cout << output << "\n";
+    cout << "output: " <<output << "\n";
     return 0;
 }
